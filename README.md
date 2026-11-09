@@ -28,14 +28,14 @@ streamlit run app.py         # launch the demo at http://localhost:8501
 ```
 
 ## Results
-Run `python -m src.train` to generate `reports/metrics.json` and `reports/confusion_matrix.png`.
+Trained on 5,169 unique messages (653 spam / 4,516 ham), with an 80/20 stratified split (1,034 test messages).
 
-| Metric    | Score |
-|-----------|-------|
-| Accuracy  | _fill in after training_ |
-| Precision | _fill in_ |
-| Recall    | _fill in_ |
-| F1        | _fill in_ |
+| Metric    | Score  |
+|-----------|--------|
+| Accuracy  | 97.49% |
+| Precision | 89.47% |
+| Recall    | 90.84% |
+| F1        | 0.9015 |
 
 ## Branch workflow
 `main` (stable, released) <- `develop` (integration) <- `feature/*` (one per task).
